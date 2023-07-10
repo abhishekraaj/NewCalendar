@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import DoubleButton from './DoubleButton';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <DoubleButton/>
+   
+   
     </div>
   );
 }
 
 export default App;
+
+
+
+// const config = {
+//   "clientId": '282333590393-j1482v39p73877a8gh4kvb8ud3e20g0c.apps.googleusercontent.com',
+//   "apiKey": 'AIzaSyCKkTFQ6CIaYSA4XfssctXacw_B65-V93g',
+//   "scope": "https://www.googleapis.com/auth/calendar",
+//   "discoveryDocs": [
+//     "https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"
+//   ]
+// }
+  // const  CLIENT_ID = '282333590393-j1482v39p73877a8gh4kvb8ud3e20g0c.apps.googleusercontent.com'
+  // const SCOPES = "https://www.googleapis.com/auth/calendar.events"
+  // const API_KEY = 'AIzaSyCKkTFQ6CIaYSA4XfssctXacw_B65-V93g'
